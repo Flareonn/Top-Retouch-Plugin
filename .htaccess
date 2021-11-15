@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
+ErrorDocument 404 https://www.freeretouch.com/error
+ExpiresByType text/css "access plus 5 minutes"

@@ -1,0 +1,21 @@
+<svg id="статика" xmlns="http://www.w3.org/2000/svg" width="12.112" height="12.112" viewBox="0 0 12.75 12.75">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #9f9f9f;
+        stroke-width: 1.5px;
+      }
+
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #9f9f9f;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M85.886,46.349a5.486,5.486,0,0,1-.322.446,6,6,0,0,1-4.7,2.2,5.511,5.511,0,1,1,0-11,5.984,5.984,0,0,1,4.787,2.32,2.57,2.57,0,0,1,.1,2.264" transform="translate(-74.25 -37)"/>
+  <path class="cls-2" d="M81,43h6V37Z" transform="translate(-74.25 -37)"/>
+</svg>

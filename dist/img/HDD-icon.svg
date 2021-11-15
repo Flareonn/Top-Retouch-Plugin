@@ -1,0 +1,24 @@
+<svg id="HDD-icon" xmlns="http://www.w3.org/2000/svg" width="13" height="6" viewBox="0 0 13 6">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #525252;
+      }
+
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #797878;
+      }
+
+      .cls-3 {
+        fill: #545252;
+      }
+    </style>
+  </defs>
+  <path id="Прямоугольник_скругл._углы_1" data-name="Прямоугольник, скругл. углы 1" class="cls-1" d="M0,5A1,1,0,0,0,1,6H12a1,1,0,0,0,1-1H0Z"/>
+  <path id="Прямоугольник_скругл._углы_1_копия" data-name="Прямоугольник, скругл. углы 1 копия" class="cls-2" d="M0,5V1A1,1,0,0,1,1,0H12a1,1,0,0,1,1,1V5H0Z"/>
+  <rect id="Прямоугольник_1" data-name="Прямоугольник 1" class="cls-3" x="9" y="2" width="2" height="2"/>
+</svg>

@@ -1,0 +1,11 @@
+<svg id="Small-folder-icon" xmlns="http://www.w3.org/2000/svg" width="13" height="10" viewBox="0 0 13 10">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #9a9a9a;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Прямоугольник_2" data-name="Прямоугольник 2" class="cls-1" d="M12,10H1A1,1,0,0,1,0,9V1A1,1,0,0,1,1,0H6A1,1,0,0,1,7,1V2h5a1,1,0,0,1,1,1V9A1,1,0,0,1,12,10Z"/>
+</svg>

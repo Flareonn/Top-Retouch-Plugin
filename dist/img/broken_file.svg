@@ -1,0 +1,15 @@
+<svg id="X" xmlns="http://www.w3.org/2000/svg" width="56" height="68" viewBox="0 0 56 68">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #747474;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <g id="_2" data-name="2">
+    <path class="cls-1" d="M41,0H0V68H56V15c0-.132-4.047-3.075-8-7C44.217,4.243,41.113,0,41,0ZM40,1H1V67H55V16c0-.132-4.047-3.075-8-7C43.217,5.243,40.113,1,40,1Z"/>
+    <path class="cls-1" d="M40.674,0L56,15.184H40.674V0Z"/>
+    <path id="Rounded_Rectangle_1_copy_2" data-name="Rounded Rectangle 1 copy 2" class="cls-1" d="M29.414,36.373l4.657,4.657a1,1,0,1,1-1.414,1.414L28,37.787l-4.657,4.657a1,1,0,1,1-1.414-1.414l4.657-4.657-4.657-4.657A1,1,0,0,1,23.343,30.3L28,34.959,32.657,30.3a1,1,0,1,1,1.414,1.414Z"/>
+  </g>
+</svg>

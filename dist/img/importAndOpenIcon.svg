@@ -1,0 +1,19 @@
+<svg id="importAndOpenIcon" xmlns="http://www.w3.org/2000/svg" width="11" height="13" viewBox="0 0 11 13">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #858484;
+      }
+
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #262626;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M876,334.151V344H865V331h7.507C872.648,331,876,334.12,876,334.151Z" transform="translate(-865 -331)"/>
+  <path class="cls-2" d="M870,334h1v4h-1v-4Zm3,4-2.5,3-2.5-3h5Z" transform="translate(-865 -331)"/>
+</svg>

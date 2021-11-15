@@ -1,0 +1,44 @@
+<svg id="comp-icon" xmlns="http://www.w3.org/2000/svg" width="15" height="13" viewBox="0 0 15 13">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #4e4e4e;
+      }
+
+      .cls-2 {
+        fill: #858484;
+      }
+
+      .cls-2, .cls-6, .cls-7 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        fill: #373737;
+      }
+
+      .cls-4 {
+        fill: #f6fcf8;
+      }
+
+      .cls-5 {
+        fill: #252525;
+      }
+
+      .cls-6 {
+        fill: #3d3d3d;
+      }
+
+      .cls-7 {
+        fill: #a1a1a1;
+      }
+    </style>
+  </defs>
+  <rect id="bg2" class="cls-1" x="3" y="2" width="9" height="9"/>
+  <path id="bg1" class="cls-2" d="M0,0H15V13H0V0ZM1,1H2V2H1V1ZM1,3H2V4H1V3ZM1,5H2V6H1V5ZM1,7H2V8H1V7ZM1,9H2v1H1V9Zm0,2H2v1H1V11ZM13,1h1V2H13V1Zm0,2h1V4H13V3Zm0,2h1V6H13V5Zm0,2h1V8H13V7Zm0,2h1v1H13V9Zm0,2h1v1H13V11ZM3,2h9v9H3V2ZM3,0h9V1H3V0ZM3,12h9v1H3V12Z"/>
+  <circle id="_0angle2" data-name="0angle2" class="cls-3" cx="6.5" cy="5.5" r="3.5"/>
+  <circle id="_0angle" data-name="0angle" class="cls-4" cx="6.5" cy="5.5" r="2.5"/>
+  <rect id="_4angle" data-name="4angle" class="cls-5" x="8" y="4" width="4" height="4"/>
+  <path id="_3angle2" data-name="3angle2" class="cls-6" d="M11.008,10.984l-4-5.969-4,5.969h8Z"/>
+  <path id="_3angle" data-name="3angle" class="cls-7" d="M10.006,9.989l-3-3.979-3,3.979h6Z"/>
+</svg>

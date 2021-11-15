@@ -1,0 +1,19 @@
+<svg id="scale_from" xmlns="http://www.w3.org/2000/svg" width="11" height="16" viewBox="0 0 11 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #9e9e9e;
+      }
+
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #12caff;
+      }
+    </style>
+  </defs>
+  <path id="Rectangle_10_copy" data-name="Rectangle 10 copy" class="cls-1" d="M1050,731v-2h2v2h-2Zm0-5h2v2h-2v-2Zm0-3h2v2h-2v-2Zm-3,6h2v2h-2v-2Zm0-3h2v2h-2v-2Zm0-3h2v2h-2v-2Zm-3,6h2v2h-2v-2Zm0-3h2v2h-2v-2Zm0-3h2v2h-2v-2Zm-3,6h2v2h-2v-2Zm0-3h2v2h-2v-2Zm0-3h2v2h-2v-2Z" transform="translate(-1041 -723)"/>
+  <path id="клик" class="cls-2" d="M1050,739v-2h2v2h-2Zm0-5h2v2h-2v-2Zm0-3h2v2h-2v-2Zm-3,6h2v2h-2v-2Zm0-3h2v2h-2v-2Zm0-3h2v2h-2v-2Zm-3,6h2v2h-2v-2Zm0-3h2v2h-2v-2Zm0-3h2v2h-2v-2Zm-3,6h2v2h-2v-2Zm0-3h2v2h-2v-2Zm0-3h2v2h-2v-2Z" transform="translate(-1041 -723)"/>
+</svg>

@@ -1,0 +1,54 @@
+.folder
+  z-index: 1
+  position: relative
+  padding-left: 9px
+  overflow-y: auto
+  overflow-x: hidden
+  &-list
+    font-weight: 500
+    font-size: 11px
+    color: #BDBDBD
+    border: 1px solid #444
+    border-right: none
+    margin-left: 5px
+    > ul > li:last-child span
+      border-bottom: none
+    li > span
+      border-bottom: 1px solid #444444
+
+.tj_container li span.tj_description
+  display: flex
+  align-items: center
+.tj_container li span.tj_description.tj_leaf
+  display: none
+.tj_container li span.tj_description.tj_leaf,
+.tj_container li span.tj_description
+  overflow: hidden
+  text-overflow: ellipsis
+  white-space: nowrap
+.tj_container li span.tj_mod_icon, .tj_container li span.tj_mod_icon *
+  width: 20px
+  height: 20px
+  padding: 0px 4px
+  margin-right: 0
+  display: flex
+  align-items: center
+  justify-content: center
+.tj_container li[disabled]
+  display: none
+#resize
+  position: absolute
+  content: ""
+  display: block
+  top: 0
+  left: 0px
+  width: 14px
+  height: 100%
+  z-index: 99999999999999
+  cursor: e-resize
+  .resize-block
+    background-color: #2C2B2C
+    width: calc(100% - 10px)
+    margin-left: 5px
+    height: 100%
+    display: block

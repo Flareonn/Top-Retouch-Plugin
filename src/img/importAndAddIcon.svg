@@ -1,0 +1,29 @@
+<svg id="importAndAddIcon" xmlns="http://www.w3.org/2000/svg" width="15" height="12" viewBox="0 0 15 12">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #5a5a5a;
+      }
+
+      .cls-2 {
+        fill: #262626;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        fill: #858484;
+      }
+
+      .cls-4 {
+        fill: #a5a5a5;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" x="1" y="2" width="13" height="9"/>
+  <path id="Rectangle_38_copy" data-name="Rectangle 38 copy" class="cls-2" d="M876,367H865v-7h4v-1h3v1h4v7Z" transform="translate(-863 -357)"/>
+  <path id="Rectangle_39_copy_3" data-name="Rectangle 39 copy 3" class="cls-3" d="M863,358h3v3h-3v-3Zm12,0h3v3h-3v-3Zm0,8h3v3h-3v-3Zm-12,0h3v3h-3v-3Z" transform="translate(-863 -357)"/>
+  <path class="cls-4" d="M870,357h1v5h-1v-5Zm3,5-2.5,3-2.5-3h5Z" transform="translate(-863 -357)"/>
+</svg>

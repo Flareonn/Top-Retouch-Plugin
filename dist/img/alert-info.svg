@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="39" height="39" viewBox="0 0 39 39">
+  <defs>
+    <style>
+      .cls-1 {
+        filter: url(#filter);
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #942734;
+        stroke-width: 3px;
+      }
+
+      .cls-3 {
+        fill: #a45570;
+        fill-rule: evenodd;
+      }
+    </style>
+    <filter id="filter" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#e4b73d"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="icon_" data-name="icon !" class="cls-1">
+    <circle id="Ellipse_525_copy" data-name="Ellipse 525 copy" class="cls-2" cx="19.5" cy="19.5" r="18"/>
+    <path id="Rounded_Rectangle_555" data-name="Rounded Rectangle 555" class="cls-3" d="M220,247a2,2,0,0,1,2,2v7.656a2,2,0,0,1-4,0V249A2,2,0,0,1,220,247Zm0,14a2,2,0,1,1-2,2A2,2,0,0,1,220,261Z" transform="translate(-200.5 -236.5)"/>
+  </g>
+</svg>

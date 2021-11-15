@@ -1,0 +1,12 @@
+<svg id="star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 11">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #72cafd;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Favourites_active" data-name="Favourites active" class="cls-1"
+    d="M4,4H0L3.5,6.57,2,11,6,9l4,2L8.5,6.57,12,4H8L6,0Z" />
+</svg>

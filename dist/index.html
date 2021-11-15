@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/lib/CSInterface.js"></script>
+    <script src="js/lib/jquery-3.6.0.min.js"></script>
+    <script src="js/lib/app-ext.js"></script>
+    <script src="js/app.js"></script>
+  </head>
+  <body onload="app.onLoad()">
+    <div class="nav">
+      <div class="nav-panel-container">
+        <div class="nav-panel">
+          <div class="nav-navigation">
+            <a id="nav-prev" class="nav-navigation__link">
+              <svg
+                width="11"
+                height="11"
+                viewBox="0 0 11 11"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M4.15808 8.78706C3.75354 9.16305 3.7304 9.7958 4.10639 10.2003C4.48238 10.6049 5.11512 10.628 5.51966 10.252L9.79834 6.27528C9.83117 6.24798 9.86263 6.21828 9.89247 6.18617C10.2285 5.8246 10.2457 5.28072 9.95674 4.90081C9.93656 4.87419 9.91486 4.84833 9.89163 4.82334C9.86818 4.7981 9.84372 4.77435 9.81838 4.75209L5.5205 0.757489C5.11596 0.381499 4.48322 0.40464 4.10723 0.809177C3.73124 1.21371 3.75438 1.84646 4.15892 2.22245L7.69002 5.50436L4.15808 8.78706Z"
+                  fill="#626262"
+                />
+                <path
+                  d="M8 5.48994H1"
+                  stroke="#626262"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </a>
+            <a id="nav-next" class="nav-navigation__link">
+              <svg
+                width="11"
+                height="11"
+                viewBox="0 0 11 11"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M4.15808 8.78706C3.75354 9.16305 3.7304 9.7958 4.10639 10.2003C4.48238 10.6049 5.11512 10.628 5.51966 10.252L9.79834 6.27528C9.83117 6.24798 9.86263 6.21828 9.89247 6.18617C10.2285 5.8246 10.2457 5.28072 9.95674 4.90081C9.93656 4.87419 9.91486 4.84833 9.89163 4.82334C9.86818 4.7981 9.84372 4.77435 9.81838 4.75209L5.5205 0.757489C5.11596 0.381499 4.48322 0.40464 4.10723 0.809177C3.73124 1.21371 3.75438 1.84646 4.15892 2.22245L7.69002 5.50436L4.15808 8.78706Z"
+                  fill="#626262"
+                />
+                <path
+                  d="M8 5.48994H1"
+                  stroke="#626262"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </a>
+            <a id="nav-refresh" class="nav-navigation__link">
+              <svg
+                width="12"
+                height="13"
+                viewBox="0 0 12 13"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M12 1V5.98764H7L12 1Z" fill="#626262" />
+                <path
+                  d="M10.39 3.40687C9.74321 2.44712 8.81221 1.73567 7.74017 1.38196C6.66813 1.02825 5.51443 1.05186 4.45651 1.44917C3.39858 1.84647 2.49503 2.59546 1.8848 3.58094C1.27458 4.56642 0.99149 5.73382 1.07907 6.90358C1.16665 8.07335 1.62005 9.18069 2.36953 10.0553C3.11902 10.9299 4.12308 11.5234 5.2273 11.7444C6.33152 11.9654 7.47473 11.8017 8.48112 11.2786C9.27771 10.8645 9.95366 10.2433 10.4469 9.48008"
+                  stroke="#626262"
+                  stroke-width="1.3"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </a>
+          </div>
+          <div class="nav-directory">
+            <span id="directory-home">Transitions.fun</span>
+          </div>
+        </div>
+        <div class="nav-panel">
+          <div id="resize">
+            <div class="resize-block"></div>
+          </div>
+          <div class="nav-search">
+            <div class="nav-search__icon"></div>
+            <input type="text" class="nav-search__input" id="nav-search" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main">
+      <div class="gallery">
+        <div class="gallery-wrapper">
+          <div class="gallery-grid"></div>
+        </div>
+        <div class="gallery-actions">
+          <div class="gallery-actions-slider">
+            <div
+              class="gallery-actions-slider__icon from"
+              id="gallery-grid-sizer-min"
+            ></div>
+            <input
+              type="range"
+              class="gallery-actions-slider__input"
+              id="gallery-grid-sizer"
+              value="24"
+              step=".01"
+              min="10"
+              max="64"
+            />
+            <div
+              class="gallery-actions-slider__icon to"
+              id="gallery-grid-sizer-max"
+            ></div>
+          </div>
+        </div>
+      </div>
+      <div class="folder">
+        <div class="folder-list" id="folder-root"></div>
+        <div id="resize">
+          <div class="resize-block"></div>
+        </div>
+      </div>
+    </div>
+    <script src="js/tree.js"></script>
+    <script src="js/script.js"></script>
+
+    <!-- <svg class="gallery-grid-item__image_folder">
+      <symbol id="s-mask-circles">
+        <g>
+          <path
+            fill="white"
+            class="st2"
+            d="M129.4,29.8c1.5,0,2.7,1.1,2.7,2.4v46.4c0,1.3-1.2,2.4-2.7,2.4H43.7c-1.5,0-2.7-1.1-2.7-2.4V32.2
+            c0-1.3,1.2-2.4,2.7-2.4L129.4,29.8"
+          />
+        </g>
+      </symbol>
+      <mask id="hdua">
+        <use xlink:href="#s-mask-circles" />
+      </mask>
+    </svg> -->
+  </body>
+</html>

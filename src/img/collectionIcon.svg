@@ -1,0 +1,12 @@
+<svg id="collectionIcon" xmlns="http://www.w3.org/2000/svg" width="15.062" height="13" viewBox="0 0 15.062 13">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #9f9f9f;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Rounded_Rectangle_6" data-name="Rounded Rectangle 6" class="cls-1" d="M199.059,282H188a2,2,0,0,1-2-2v-7a2,2,0,0,0,2,2h5.028v1.1a1.488,1.488,0,0,0-1,1.4,1.506,1.506,0,0,0,3.012,0,1.488,1.488,0,0,0-1-1.4V275h5.027a2,2,0,0,0,2-2v7A2,2,0,0,1,199.059,282Z" transform="translate(-186 -269)"/>
+  <path id="Rounded_Rectangle_6_copy" data-name="Rounded Rectangle 6 copy" class="cls-1" d="M199.059,274h-5.027v-1.092a1.506,1.506,0,1,0-1,0V274H188a2,2,0,0,1-2-2v-1a2,2,0,0,1,2-2h11.059a2,2,0,0,1,2,2v1A2,2,0,0,1,199.059,274Z" transform="translate(-186 -269)"/>
+</svg>

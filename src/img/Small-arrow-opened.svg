@@ -1,0 +1,11 @@
+<svg id="list-down" xmlns="http://www.w3.org/2000/svg" width="7" height="5" viewBox="0 0 7 5">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #a1a1a1;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="list-down-2" data-name="list-down" class="cls-1" d="M-0.007.013l3.5,4.974,3.5-4.974h-7Z"/>
+</svg>

@@ -1,0 +1,11 @@
+<svg id="createPreviewIcon" xmlns="http://www.w3.org/2000/svg" width="13" height="9" viewBox="0 0 13 9">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #858484;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M863,316v-9h13v9H863Zm5-7v5l3-2.5Z" transform="translate(-863 -307)"/>
+</svg>

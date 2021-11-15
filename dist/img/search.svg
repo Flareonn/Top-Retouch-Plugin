@@ -1,0 +1,31 @@
+<svg id="search" xmlns="http://www.w3.org/2000/svg" width="11.562" height="23.594" viewBox="0 0 11.562 23.594">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill: none;
+        stroke-width: 1px;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #12caff;
+      }
+
+      .cls-2, .cls-4 {
+        stroke-linecap: round;
+        fill-rule: evenodd;
+      }
+
+      .cls-3, .cls-4 {
+        stroke: #d2d2d2;
+      }
+    </style>
+  </defs>
+  <g id="active">
+    <circle id="Ellipse_1_copy" data-name="Ellipse 1 copy" class="cls-1" cx="7.14" cy="16.422" r="3.922"/>
+    <path id="Shape_1_copy" data-name="Shape 1 copy" class="cls-2" d="M467.839,56.813l-3.407,3.407" transform="translate(-463.938 -37.156)"/>
+  </g>
+  <g id="regular">
+    <circle class="cls-3" cx="7.14" cy="4.422" r="3.922"/>
+    <path class="cls-4" d="M467.839,44.813l-3.407,3.407" transform="translate(-463.938 -37.156)"/>
+  </g>
+</svg>
